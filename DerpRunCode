@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Derp World</title>
+</head>
+<body>
+<script>
+var canvas = document.createElement('canvas');
+canvas.width = 800;
+canvas.height = 600;
+document.body.appendChild(canvas);
+var c = canvas.getContext('2d');
+c.fillStyle = 'black';
+c.fillRect(80, 150, 50, 50);
+document.body.appendChild(canvas);
+var c = canvas.getContext('2d');
+c.fillStyle = 'black';
+c.fillRect(585, 150, 50, 50);
+var c = canvas.getContext('2d');
+c.fillStyle = 'black';
+c.fillRect(200, 150, 300, 50);
+</script>
+</body>
+</html>
+<text>
+yer Derp rate is not 100. increase yer Derp rate nao. if yer Derp rate is 100, u will be dubbed "Tru Derp".
+</text>
